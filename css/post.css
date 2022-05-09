@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* .post-text-lower{
+
+    padding-left: 25%;
+    padding-right: 25%;
+} */
+.Head{
+    font-family: Helvetica,Arial,sans-serif;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+.post-text-lower{
+    font-size: 19px;
+font-family: sans-serif;
+    /* text-align: justify; For Edge */
+  /* -moz-text-align-last: justify; For Firefox prior 58.0 */
+  /* text-align-last: justify; */
+}
+.Head h1{
+    font-size: 56px;
+    color: #0b0c0d;
+}
+.Head p {
+    font-size: 24px;
+    color: #0b0c0d;
+}
+.PostWithAuth{
+    display: flex;
+
+}
+.BlogPost{
+    width: 1235px;
+    /* width: 75%; */
+    justify-content: center;
+    margin: 10px auto;
+}
+.AuthImage{
+    margin: 10px 50px;
+    line-height: 25px;
+}
+.PostAuth{
+    width: 220px;
+    justify-content: center;
+text-align: center;
+    margin-right: 30px;
+margin-bottom: 20px;
+}
+.PostAuth img{width: 100px;
+    height: 100px;
+border-radius: 50%;}
+.postimgpic{
+/* width: 50%; */
+margin-bottom: 20px;
+}
+.postimgpic img{
+width: 100%;
+
+}
+/* .Head{
+    width: 100%;
+
+} */
+hr{
+margin-top: 10px;
+
+color: #0b0c0d;
+height: 4px;
+background-color: #0b0c0d;
+}
+.thisorthat{
+    height: 240px;
+}
+.recommend{
+    /* width: 280px; */
+    padding: 10px 15px;
+   
+}
+.recommend img{
+    width: 100%;
+}
+#recommend{
+    display: block;
+     justify-content: center;
+     width: 1235px;
+     margin: 10px auto;
+     font-weight: 600;
+     /* margin: 0 10%; */
+border-top: #0b0c0d 3px solid;
+}
+.posts{
+    display: flex;
+}
+#head-recommend{
+    margin: 10px 0px;
+}
+
+h2{
+    margin: 0 10%;
+}
+.PostContent{
+    width: 675px;
+
+}
+.PostContent p{
+    font-size: 18px;
+    line-height: 24px;
+
+}
+.AuthHandle img{
+    width: 25px;
+    height: 25px;
+    margin: 2px 8px;
+    padding-top: 2px;
+
+}
+.AuthHandleHr{
+width: 150px;
+height: 0.5px;
+border: #0b0c0d 0.5px solid;
+text-align: center;
+margin: 7px auto;
+
+}
+.SideRecomend{
+width: 300px;
+border: 0.5px solid black;
+margin-left:30px ;
+}
+@media screen and (max-width: 1260px) {
+    .BlogPost{
+        width: 980px;
+        /* width: 75%; */
+        justify-content: center;
+        margin: 10px auto;
+    }
+    #recommend{
+        display: block;
+         justify-content: center;
+         width: 980px;
+         margin: 10px auto;
+         font-weight: 600;
+         /* margin: 0 10%; */
+    border-top: #0b0c0d 3px solid;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .BlogPost{
+        width: 640px;
+        /* width: 75%; */
+        justify-content: center;
+        margin: 10px auto;
+    }
+    .PostWithAuth{
+        display: block;
+    
+    }
+    #recommend{
+        display: block;
+         justify-content: center;
+         width: 640px;
+         margin: 10px auto;
+         font-weight: 600;
+         /* margin: 0 10%; */
+    border-top: #0b0c0d 3px solid;
+    }
+    .AuthHandle , .AuthHandleHr{
+        display: none;
+    }
+    .AuthImage{display: flex;
+    justify-content: center;
+align-items: center;
+margin:auto ;}
+    .AuthImage img{
+        width: 48px;
+        height: 48px;
+        margin-left: 60px;
+    }
+    .AuthImage p {margin: 1px 4px;}
+    .Head p {line-height: 36px;}
+}
+@media screen and (max-width: 770px){
+    .Head{
+        font-family: Helvetica,Arial,sans-serif;
+        line-height: 33px;
+        margin-bottom: 20px;
+    }
+   
+    .Head h1{
+        font-size: 26px;
+        color: #0b0c0d;
+    }
+    .Head p {
+        font-size: 20px;
+        color: #0b0c0d;
+    }
+    .BlogPost{
+        width: 100%;
+        /* width: 75%; */
+        justify-content: center;
+        margin: 10px auto;
+        padding: 15px;
+    }
+    .PostContent{
+        width: 100%;
+    
+    }
+    .thisorthat{
+height: 180px;
+align-items: center;
+justify-content: center;
+    }
+    #recommend{
+        display: block;
+         justify-content: center;
+         width: 100%;
+         margin:  15px;
+         font-weight: 600;
+         /* padding: 15px; */
+         /* margin: 0 10%; */
+    border-top: #0b0c0d 3px solid;
+    }
+    .posts{
+        display: grid;
+        grid-template-columns: repeat(2, 45%);
+        grid-column-gap: 10px;
+        font-weight: 500;
+      }
+}
+@media screen and (max-width: 550px){
+.thisorthat{
+    display: none;
+}
+}

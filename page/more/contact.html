@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/nav.css">
+    <link rel="stylesheet" href="../../css/contact.css">
+    <link rel="stylesheet" href="../../css/footer.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <i class='bx bx-menu'></i>
+                <div class="logo"><a href="../../index.html">Blog-Werascals</a></div>
+                <div class="nav-links">
+                    <div class="sidebar-logo">
+                        <span class="logo-name">Blog-Werascals</span>
+                        <i class='bx bx-x'></i>
+                    </div>
+                    <ul class="links">
+                        <li><a href="../news.html">NEWS</a></li>
+                        <li><a href="../reviews.html">REVIEWS</a></li>
+                        <li><a href="../how-to.html">HOW TO</a></li>
+
+                        <li>
+                            <a href="../best-of.html" id="best">BEST OF</a>
+                            <i class='bx bxs-chevron-down htmlcss-arrow arrow'></i>
+                            <ul class="htmlCss-sub-menu sub-menu">
+                                <!-- <li><a href="#">Web Design</a></li>
+                  <li><a href="#">Login Forms</a></li>
+                  <li><a href="#">Card Design</a></li> -->
+                                <li class="more">
+                                    <span><a href="../bestof/mobile.html">MOBILE</a>
+                                        <!-- <i class='bx bxs-chevron-right arrow more-arrow'></i> -->
+                                    </span>
+                                    <!-- <ul class="more-sub-menu sub-menu">
+                                        <li><a href="../bestof/android.html">ANDROID</a></li>
+                                        <li><a href="../bestof/iphone.html">IPHONE</a></li>
+                                        <li><a href="#">Glassmorphism</a></li>
+                                    </ul> -->
+                                </li>
+                                <li class="more">
+                                    <span><a href="../bestof/pc.html">PC</a>
+                                        <!-- <i class='bx bxs-chevron-right arrow more-arrow'></i> -->
+                                    </span>
+                                    <!-- <ul class="more-sub-menu sub-menu">
+                                        <li><a href="../bestof/windows.html">WINDOWS</a></li>
+                                        <li><a href="../bestof/linux.html">LINUX</a></li>
+                                        <li><a href="../bestof/mac.html">MAC</a></li>
+                                        <li><a href="#">Glassmorphism</a></li>
+                                    </ul> -->
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a>MORE</a>
+                            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+                            <ul class="js-sub-menu sub-menu">
+                                <li><a href="../more/about.html">ABOUT US</a></li>
+                                <li><a href="../more/contact.html">CONTACT US</a></li>
+                                <li><a href="../more/privacy.html">PRIVACY POLICY</a></li>
+                                <!-- <li><a href="#">Complete Website</a></li> -->
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <form class="search-box" role="search" action="https://www.google.com/search?" target="_blank">
+                    <i class='bx bx-search'></i>
+                    <div class="input-box">
+                        <input type="text" placeholder="Search..." name="q">
+                        <button class="submit" type="submit" style="    margin-left: 83%;
+                        /* margin-top: 4.5%; */
+                        /* padding: 8px; */
+                        width: 39px;
+                        color: black;
+    margin-top: 4.5%;
+    font-size: 13px;
+
+    padding: 10px;
+                        border-radius: 5px;
+                        border: solid 0px;
+                        background-color: white;
+                        cursor: pointer;">OK
+                        </button>
+
+                    </div>
+                </form>
+            </div>
+
+        </nav>
+    </header>
+    <section style="min-height: 78vh;">
+        <div class="container">
+            <form action="https://formspree.io/f/xknyovzr" method="POST" id="my-form">
+
+                <div class="form-group">
+                    <label for="firstName"> First Name</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="latsName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="massage">Massage</label>
+                    <textarea name="massage" id="massage" cols="30" rows="10" required></textarea>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div id="status"></div>
+    </section>
+    <footer class="footertag" style="bottom: 0;">
+        <p>Blog.werascals.com is a subsidary of <a href="https://www.werascals.com">werascals.com</a> .</p>
+        <div class="linksfooter">
+            <div class="footerlink" id="footerabout">
+                <h3>About</h3>
+                <ul>
+                    <li><a href=""> About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href=""> Privacy Policy</a></li>
+                    <li><a href=""> Terms And Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footerlink" id="footersection">
+                <h3>Sections</h3>
+                <ul>
+                    <li><a href="">News</a></li>
+                    <li><a href="">Reviews</a></li>
+                    <li><a href="">How To</a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </div>
+            <div class="footerlink" id="footersocial">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Linkdin</a></li>
+                    <li><a href="">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy 2022 <a href="https://www.blog.werascals.com/" target="_blank">blog.Werascal.com</a> </p>
+    </footer>
+    <script src="../../js/contact.js"></script>
+    <script src="../../js/script.js"></script>
+</body>
+
+</html>

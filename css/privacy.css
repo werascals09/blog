@@ -1,0 +1,21 @@
+.content-privacy{
+
+   padding: 20px;
+    justify-content: center;
+    background-color: rgb(255, 251, 251);
+   
+    height: max-content;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 73rem;
+}
+body{
+    background-color: rgb(230, 230, 230);
+}
+a{
+    text-decoration: none;
+    color: #3E8DA8;
+    font-weight: 800;
+}
